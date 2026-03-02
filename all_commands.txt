@@ -1,0 +1,204 @@
+These are some commands: HELLO  
+
+    1  sudo apt update
+    2  lsb_realease -a
+    3  lsb_release -a
+    4  clear
+    5  date
+    6  echo "HELLO DOSTO"
+    7  pwd
+    8  whoami
+    9  mkdir devops
+   10  ls
+   11  touch devops.txt
+   12  ls
+   13  cd devops
+   14  pwd
+   15  cd
+   16  pwd
+   17  cd /
+   18  pwd
+   19  ls
+   20  cd bin
+   21  ls
+   22  df -h
+   23  cd ..
+   24  ls
+   25  cd boot
+   26  ls
+   27  pwd
+   28  cd grub
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd dev
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd home
+   37  ls
+   38  cd ubuntu
+   39  ls
+   40  pwd
+   41  ping www.google.com
+   42  touch file1.txt
+   43  ls
+   44  touch file{2..10}.txt
+   45  ls
+   46  mkdir day{00..90}
+   47  ls
+   48  mkdir -r day*
+   49  ls
+   50  rm -r day*
+   51  ls
+   52  cd devops
+   53  mkdir devops-batch-7
+   54  cd ..
+   55  cd devops
+   56  ls
+   57  cd ..
+   58  ls
+   59  rm devops.txt
+   60  ls
+   61  rm devops
+   62  rm -r devops
+   63  ls
+   64  cd /
+   65  ls
+   66  cd root
+   67  ls
+   68  cd root
+   69  ls
+   70  cd home
+   71  ls
+   72  cd ubuntu
+   73  ls
+   74  sudo useradd -m jenny
+   75  ls
+   76  cd home
+   77  cd /home
+   78  ls
+   79  sudo passwd jenny
+   80  su jenny
+   81  whoami
+   82  sudo su
+   83  ls
+   84  cd ubuntu
+   85  ls
+   86  sudo apt-get install docker.io -y
+   87  docker
+   88  docker --version
+   89  sudo apt-get install nginx -y
+   90  sudo apt purse docker.io -y
+   91  sudo apt purge docker.io -y
+   92  docker
+   93  docker --version
+   94  nginix -v
+   95  nginx -v
+   96  ls
+   97  cat file1.txt
+   98  vim file1.txt
+   99  cat file1.txt
+  100  clear
+  101  ls
+  102  cat file1.txt
+  103  head file1.txt -n 3
+  104  head file1.txt
+  105  tail file1.txt -n 2
+  106  ls
+  107  sudo useradd -m guddu
+  108  sudo useradd -m munna
+  109  sudo useradd -m kaleen
+  110  ls
+  111  cat /etc/passwd
+  112  sudo passwd kaleen
+  113  su kaleen
+  114  cat /etc/passwd
+  115  whoami
+  116  vim my-devops-file.txt
+  117  cat my-devops-file.txt
+  118  ls -l my-devops-file.txt
+  119  cat /etc/group
+  120  sudo groupadd devops
+  121  cat /etc/group
+  122  ls -l munna
+  123  groups munna
+  124  1003 munna
+  125  id munna
+  126  sudo groupadd tester
+  127  id tester
+  128  cat /etc/group
+  129  sudo usermod -aG devops ubuntu
+  130  cat/etc/group
+  131  cat /etc/group
+  132  sudo usermod -aG devops guddu
+  133  cat /etc/group
+  134  sudo usermod -aG tester kaleen
+  135  ls
+  136  cat /etc/group
+  137  sudo -gpasswd -M ubuntu, jenny,kaleen,munna tester
+  138  sudo -gpasswd -M ubuntu,jenny,kaleen,munna tester
+  139  sudo gpasswd -M ubuntu,jenny,kaleen,munna tester
+  140  cat /etc/group
+  141  sudo chgrp devops my-devops-file.txt
+  142  ls -l my-devops-file.txt
+  143  cat /etc/group
+  144  ls -l my-devops-file.txt
+  145  ls -l
+  146  touch my-file.txt
+  147  mkdir my-directory
+  148  ls -l
+  149  chmod 777 my-file.txt
+  150  ls -l my-file.txt
+  151  chmod 700 my-file.txt
+  152  ls -l
+  153  ls
+  154  cd .ssh
+  155  ls
+  156  vim authorized_key
+  157  cat authorized_key
+  158  ls
+  159  cat authorized_keys
+  160  vim authorized_keys
+  161  ls
+  162  ls
+  163  git --version
+  164  ls
+  165  mkdir git-tutorial
+  166  ls
+  167  cd git-tutorial
+  168  mkdir devops-project-batch-7
+  169  mkdir devops-practice-project
+  170  ls
+  171  cd devops-project-batch-7
+  172  git init
+  173  ls -a
+  174  cd .git
+  175  ls
+  176  cd git-tutorial
+  177  ls
+  178  cd devops-project-batch-7
+  179  ls
+  180  ls -a
+  181  cd .git
+  182  ls
+  183  cd ..
+  184  touch laila.txt
+  185  touch majnu.txt
+  186  ls
+  187  ls -l
+  188  git status
+  189  git add laila.txt
+  190  git add majnu.txt
+  191  git status
+  192  git rm --cached laila.txt
+  193  ls
+  194  git status
+  195  git add laila.txt
+  196  git status
+  197  cd git-tutorial
+  198  cd devops-project-batch-7
+  199  ls
+  200  git config --global user.name "irshadahmad2300100833"
+  201  git config --global user.email "irshad2300100833@gmail.com"
+  202  history > all_commands.txt
